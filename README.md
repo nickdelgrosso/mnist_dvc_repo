@@ -3,6 +3,10 @@
 
 # Exploring DVC with the MNIST dataset
 
+[DVC](https://dvc.org/) is a very useful command-line tool that helps keep code and data versioned together.  Rather than trying to replace git, it works with git to keep track of which versions of datasets were present alongside which versions of code.  It does this using a stubfile strategy similar to [git-annex](https://git-annex.branchable.com/).  
+
+DVC also has some basic pipelining mechanisms which can be used to track which scripts produce which datasets.  This repo contains some useful data, and will serve as a playground repository for exploring file management with DVC.
+
 
 The full list of DVC commands: https://dvc.org/doc/command-reference
 
