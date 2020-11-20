@@ -20,5 +20,5 @@ X.shape, y.shape
 data_dir = Path("./data/raw")
 data_dir.mkdir(parents=True, exist_ok=True)
 for idx, (img, num) in tqdm(islice(enumerate(zip(X, y)), N)):
-    plt.imsave(data_dir.joinpath(f"{idx}_{num}.png"), img)
+    plt.imsave(data_dir.joinpath(f"{idx}_{num}.png"), img, cmap='gray');
     
