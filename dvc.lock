@@ -1,0 +1,26 @@
+download:
+  cmd: python scripts\download_data.py
+  deps:
+  - path: scripts\download_data.py
+    md5: 8d1600475a8fff29d33ca7435b994b8a
+    size: 747
+  outs:
+  - path: data\raw
+    md5: 7aab264dc3b60fcf2f37c0be93c7dddf.dir
+    size: 126183
+    nfiles: 200
+merge:
+  cmd: python scripts\merge.py
+  deps:
+  - path: data\raw
+    md5: 7aab264dc3b60fcf2f37c0be93c7dddf.dir
+    size: 126183
+    nfiles: 200
+  - path: scripts\merge.py
+    md5: 6c838d085ad61a2164d8f51be246e8d9
+    size: 560
+  outs:
+  - path: data\processed
+    md5: 98936f05be04bab5f81b21be0222af84.dir
+    size: 628256
+    nfiles: 2

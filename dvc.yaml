@@ -1,0 +1,14 @@
+stages:
+  download:
+    cmd: python scripts\download_data.py
+    deps:
+    - scripts\download_data.py
+    outs:
+    - data\raw
+  merge:
+    cmd: python scripts\merge.py
+    deps:
+    - data\raw
+    - scripts\merge.py
+    outs:
+    - data\processed
