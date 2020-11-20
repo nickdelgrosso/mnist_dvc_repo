@@ -1,3 +1,6 @@
+[![Run on Repl.it](https://repl.it/badge/github/nickdelgrosso/mnist_dvc_repo)](https://repl.it/github/nickdelgrosso/mnist_dvc_repo)
+
+
 # Exploring DVC with the MNIST dataset
 
 
