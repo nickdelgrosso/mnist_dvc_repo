@@ -1,3 +1,7 @@
+# Exploring DVC with the MNIST dataset
+
+
+The full list of DVC commands: https://dvc.org/doc/command-reference
 
 
 ## DVC Files
