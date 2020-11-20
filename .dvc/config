@@ -4,3 +4,6 @@
     url = ../../mnist_dvc_backup
 ['remote "gdrive"']
     url = gdrive://1k568-64m5_L5rwUPprjjSFGyeKe95_pn
+['remote "ssh"']
+    url = ssh://172.104.242.59/data
+    user = root
